@@ -1,0 +1,89 @@
+@import "compass/css3";
+
+body {
+	/*background-image: url("http://www.csie.ntu.edu.tw/~b01902068/img/background.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover;
+}
+
+.navbar-brand {
+	font: 18px skia, Cambria, Herculanum;
+}
+
+.navbar-brand:hover {
+	color: #AAAA11;
+}
+
+.dropdown-menu {
+	font: 15px Constantia, skia, Cambria, Herculanum;
+}
+
+.carousel-caption {
+	font: 15px Cambria, Herculanum;
+}
+
+.carousel-caption .H3 {
+	margin-bottom: 14px;
+	font: 28px Constantia, Cambria, Herculanum, Monaco;
+}
+
+.jumbotron {
+	background: rgba(172, 172, 192, 0.82);
+	padding:25px;
+	margin-bottom:25px;
+	font-weight:200;
+	font: 21px Courier, Baskerville, skia, Arial;
+	line-height:2.1428571435;
+	color:inherit;
+}
+
+.jumbotron h1 {
+	padding-bottom: 2px;
+	line-height:1;
+	color:inherit
+}
+
+.jumbotron .H2 {
+	font: 36px Bradley Hand, Constantia, Athelas, Baskerville, Seravek, skia, Cambria, Herculanum, Chalkduster, serif, Verdana;
+	padding-bottom: 32px;
+	line-height:1;
+	color: #D61E49;
+}
+
+.jumbotron p {
+	font: 21px Athelas, Baskerville, Seravek, skia, Cambria, Herculanum, Chalkduster, serif, Verdana;
+	line-height:1.4;
+	margin-bottom: 1px;
+}
+
+.jumbotron a {
+	margin-top: 25px;
+	margin-bottom: -25px;
+	font: 16px Seravek, Monaco;
+}
+
+.container .jumbotron {
+	border-radius:6px
+}
+
+@media screen and (min-width:768px) {
+	.jumbotron {
+		padding-top:48px;
+		padding-bottom:48px
+	}
+	.container .jumbotron {
+		padding-right:50px;
+		padding-left:50px
+	}
+	.jumbotron h1 {
+		font-size:63px
+	}
+}
+
+#Author:hover {
+	color: #FAD960;
+}
